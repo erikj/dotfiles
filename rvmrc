@@ -1,0 +1,8 @@
+export rvm_path="$HOME/.rvm"
+
+# http://beginrescueend.com/workflow/rvmrc/
+# As of RVM 1.7.0 project .rvmrc files are opt-in by defualt (therefore off).
+# To order to enable this feature set the following value in either
+# /etc/rvmrc or ~/.rvmrc:
+
+rvm_project_rvmrc=1
