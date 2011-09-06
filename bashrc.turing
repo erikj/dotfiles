@@ -33,8 +33,6 @@ PATH=/usr/local/bin:$PATH
 PATH=$PATH:/usr/local/mongodb/bin
 
 
-PS1='$PWD\n[\u@\h]: '
-
 export EDITOR="mate -w"
 export CVSEDITOR="mate -w"
 export SVN_EDITOR="mate -w"
@@ -105,3 +103,4 @@ if [ -f /usr/local/git/contrib/completion/git-completion.bash ] ; then
   source /usr/local/git/contrib/completion/git-completion.bash
 fi
 
+PS1='$PWD$(__git_ps1 " (%s)")\n[\u@\h] '
