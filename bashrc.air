@@ -17,6 +17,10 @@ if [ -d /usr/local/bin ] ; then
     PATH=/usr/local/bin:$PATH
 fi
 
+if [ -d /usr/local/mysql/bin ] ; then
+  PATH=/usr/local/mysql/bin:$PATH
+fi
+
 # MacPorts
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
