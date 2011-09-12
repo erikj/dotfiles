@@ -68,3 +68,4 @@ if [ -f /usr/local/git/contrib/completion/git-completion.bash  ] ; then
 fi
 
 PS1='$PWD$(__git_ps1 " (%s)")\n[\u@\h] '
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:/usr/local/mysql/lib:
