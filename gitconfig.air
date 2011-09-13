@@ -1,0 +1,9 @@
+[user]
+	name = erikj
+	email = root@erikj.info
+
+[alias]
+	s = status
+	ci = commit
+	co = checkout
+	d = diff
