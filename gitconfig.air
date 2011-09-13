@@ -9,3 +9,4 @@
 	co = checkout
 	d = diff
 	a = add
+    l = log --graph --decorate --pretty=oneline --abbrev-commit
