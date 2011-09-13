@@ -1,0 +1,12 @@
+[user]
+	name = Erik Johnson
+	email = ej@ucar.edu
+
+[alias]
+	s = status
+	a = add
+	ci = commit
+	co = checkout
+	d = diff
+	a = add
+    l = log --graph --decorate --pretty=oneline --abbrev-commit
