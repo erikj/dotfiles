@@ -9,4 +9,5 @@
 	ci = commit
 	co = checkout
 	d = diff
+	p = push
 	l = log --graph --decorate --pretty=oneline --abbrev-commit
