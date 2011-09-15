@@ -4,9 +4,10 @@
 
 [alias]
 	s = status
+	sb = status -sb
 	a = add
 	ci = commit
 	co = checkout
 	d = diff
-	a = add
-    l = log --graph --decorate --pretty=oneline --abbrev-commit
+	p = push
+	l = log --graph --decorate --pretty=oneline --abbrev-commit
