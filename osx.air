@@ -1,0 +1,19 @@
+# my preferred defaults for osx
+# inspired by: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
+# resource: http://secrets.blacktree.com/
+
+# Disable window animations
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
+
+# Disable menu bar transparency
+defaults write -g AppleEnableMenuBarTransparency -bool false
+
+# Expand save panel by default
+defaults write -g NSNavPanelExpandedStateForSaveMode -bool true
+
+# Avoid creating .DS_Store files on network volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
+# Expand save panel by default
+defaults write -g NSNavPanelExpandedStateForSaveMode -bool true
+
