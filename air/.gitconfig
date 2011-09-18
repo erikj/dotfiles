@@ -1,6 +1,10 @@
+
 [user]
 	name = erikj
 	email = root@erikj.info
+
+[color]
+    ui = auto
 
 [alias]
 	s = status
