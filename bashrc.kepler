@@ -34,6 +34,7 @@ alias moleculus='ssh molecule@molecul.us'
 
 # LOCAL COMMAND LINE STUFF
 
+alias ls='ls -G'
 alias l='ls -F'
 alias l1='ls -F1'
 alias ll='ls -Fl'
