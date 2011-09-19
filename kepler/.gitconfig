@@ -2,6 +2,9 @@
 	name = Erik Johnson
 	email = ej@ucar.edu
 
+[color]
+    ui = auto
+
 [alias]
 	s = status
 	sb = status -sb
