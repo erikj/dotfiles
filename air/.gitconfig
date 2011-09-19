@@ -1,18 +1,18 @@
 
 [user]
-	name = erikj
-	email = root@erikj.info
+    name = erikj
+    email = root@erikj.info
 
 [color]
     ui = auto
 
 [alias]
-	s = status
-	sb = status -sb
-	a = add
-	ci = commit
-	co = checkout
-	d = diff
+    s = status
+    sb = status -sb
+    a = add
+    ci = commit
+    co = checkout
+    d = diff
     ds = diff --cached # diff staged changes
-	p = push
-	l = log --graph --decorate --pretty=oneline --abbrev-commit
+    p = push
+    l = log --graph --decorate --pretty=oneline --abbrev-commit
