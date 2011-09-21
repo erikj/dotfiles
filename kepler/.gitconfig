@@ -1,17 +1,17 @@
 [user]
-    name = Erik Johnson
+    name  = Erik Johnson
     email = ej@ucar.edu
 
 [color]
     ui = auto
 
 [alias]
-    s = status
+    s  = status
     sb = status -sb
-    a = add
+    a  = add
     ci = commit
     co = checkout
-    d = diff
+    d  = diff
     ds = diff --cached # diff staged changes
-    p = push
-    l = log --graph --decorate --pretty=oneline --abbrev-commit
+    p  = push
+    l  = log --graph --decorate --pretty=oneline --abbrev-commit
