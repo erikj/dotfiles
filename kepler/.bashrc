@@ -53,6 +53,13 @@ alias mcz='mysql -u ruby -p`cat ~/.my.ctm-dev.ruby.passwd` -h ctm-dev zith9b'
 alias cprojects='cd /Users/ej/projects'
 alias cdotfiles='cd /Users/ej/projects/dotfiles'
 
+# alias =''
+# alias =''
+alias g='git'
+alias m='mate'
+alias p='python'
+alias r='ruby'
+
 # RVM stuff
 
 [[ -s "/Users/ej/.rvm/scripts/rvm" ]] && source "/Users/ej/.rvm/scripts/rvm"  # This loads RVM into a shell session.

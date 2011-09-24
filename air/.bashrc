@@ -59,6 +59,13 @@ alias writer='/Applications/iA\ Writer.app/Contents/MacOS/iA\ Writer'
 alias cprojects='cd /Users/molecule/projects'
 alias cdotfiles='cd /Users/molecule/projects/dotfiles'
 
+# alias =''
+# alias =''
+alias g='git'
+alias m='mate'
+alias p='python'
+alias r='ruby'
+
 # RVM stuff
 
 [[ -s "/Users/molecule/.rvm/scripts/rvm" ]] && source "/Users/molecule/.rvm/scripts/rvm"  # This loads RVM into a shell session.
