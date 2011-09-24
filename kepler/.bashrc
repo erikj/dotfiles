@@ -51,7 +51,9 @@ alias mmz='mysql -u zarf -p`cat ~/.my.merlot.zarf.passwd` -h merlot zith9b'
 alias mcz='mysql -u ruby -p`cat ~/.my.ctm-dev.ruby.passwd` -h ctm-dev zith9b'
 
 alias cprojects='cd /Users/ej/projects'
-alias cdotfiles='cd /Users/ej/projects/dotfiles'# RVM stuff
+alias cdotfiles='cd /Users/ej/projects/dotfiles'
+
+# RVM stuff
 
 [[ -s "/Users/ej/.rvm/scripts/rvm" ]] && source "/Users/ej/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
