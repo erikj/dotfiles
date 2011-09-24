@@ -8,6 +8,7 @@
 [alias]
     s  = status
     sb = status -sb
+    cl = config --list
     a  = add
     ci = commit
     co = checkout
