@@ -24,3 +24,5 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 # Expand save panel by default
 defaults write -g NSNavPanelExpandedStateForSaveMode -bool true
 
+# Reset Launchpad
+[ -e ~/Library/Application\ Support/Dock/*.db ] && rm ~/Library/Application\ Support/Dock/*.db
