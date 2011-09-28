@@ -61,6 +61,7 @@ alias cdotfiles='cd /Users/molecule/projects/dotfiles'
 
 # alias =''
 # alias =''
+alias a='ack'
 alias g='git'
 alias m='mate'
 alias p='python'
