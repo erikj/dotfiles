@@ -55,8 +55,6 @@ alias m='mate'
 
 [[ -s "/Users/molecule/.rvm/scripts/rvm" ]] && source "/Users/molecule/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
-# rvm use 1.8.7-p334
-
 # git stuff
 
 if [ -f /usr/local/git/contrib/completion/git-completion.bash  ] ; then
