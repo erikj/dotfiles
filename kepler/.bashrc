@@ -1,10 +1,13 @@
-# .bashrc
-
-# User specific aliases and functions
+# ~/.bashrc, kepler.eol.ucar.edu
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
+fi
+
+# Source common user definitions
+if [ -f ~/bashrc.common.sh ]; then
+	. ~/bashrc.common.sh
 fi
 
 if [ -d ~/bin ] ; then
@@ -28,22 +31,7 @@ export EVENT_NOKQUEUE='1'
 
 set -o emacs
 
-# NETWORK STUFF
-
-alias moleculus='ssh molecule@molecul.us'
-
 # LOCAL COMMAND LINE STUFF
-
-alias ls='ls -G'
-alias l='ls -F'
-alias l1='ls -F1'
-alias ll='ls -Fl'
-alias lh='ls -Flh'
-alias ..='cd ..'
-alias rm='rm -v'
-alias mv='mv -v'
-alias cp='cp -v'
-alias du1='du -d 0 -h'
 
 alias ccatalog='cd /Users/ej/UCAR/git/catalog_ui'
 alias mz='mysql -u root zith9b'
@@ -54,21 +42,13 @@ alias cprojects='cd /Users/ej/projects'
 alias cdotfiles='cd /Users/ej/projects/dotfiles'
 
 # alias =''
-# alias =''
-alias g='git'
 alias m='mate'
-alias p='python'
-alias r='ruby'
 
 # RVM stuff
 
 [[ -s "/Users/ej/.rvm/scripts/rvm" ]] && source "/Users/ej/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
-# rvm use 1.8.7-p334
-
 # git stuff
-
-PS1='$PWD\n[\u@\h]: '
 
 if [ -f /Users/ej/bin/git-completion.bash ] ; then
   source /Users/ej/bin/git-completion.bash
