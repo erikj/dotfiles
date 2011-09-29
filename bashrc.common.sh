@@ -1,10 +1,10 @@
 # aliases
 
-alias ls='ls -G' # add some color
-alias l='ls -F'
-alias l1='ls -F1'
-alias ll='ls -Fl'
-alias lh='ls -Flh'
+alias ls='ls -FG' # add some color, trailing dir and link indicators
+alias l='ls'
+alias l1='ls -1'
+alias ll='ls -l'
+alias lh='ls -lh'
 alias ..='cd ..'
 alias rm='rm -v'
 alias mv='mv -v'
