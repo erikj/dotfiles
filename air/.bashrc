@@ -7,6 +7,11 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+# Source common user definitions
+if [ -f ~/.bashrc.common.sh ]; then
+	. ~/bashrc.common.sh
+fi
+
 if [ -d ~/bin ] ; then
     PATH=~/bin:$PATH
 fi
@@ -32,23 +37,7 @@ export EVENT_NOKQUEUE='1'
 
 set -o emacs
 
-# NETWORK STUFF
-
-alias moleculus='ssh molecule@molecul.us'
-
 # LOCAL COMMAND LINE STUFF
-
-# add some color
-alias ls='ls -G'
-alias l='ls -F'
-alias l1='ls -F1'
-alias ll='ls -Fl'
-alias lh='ls -Flh'
-alias ..='cd ..'
-alias rm='rm -v'
-alias mv='mv -v'
-alias cp='cp -v'
-alias du1='du -d 0 -h'
 
 alias ccatalog='cd /Users/molecule/UCAR/catalog_ui'
 alias mz='mysql -u root zith9b'
@@ -60,12 +49,7 @@ alias cprojects='cd /Users/molecule/projects'
 alias cdotfiles='cd /Users/molecule/projects/dotfiles'
 
 # alias =''
-# alias =''
-alias a='ack'
-alias g='git'
 alias m='mate'
-alias p='python'
-alias r='ruby'
 
 # RVM stuff
 
@@ -75,11 +59,10 @@ alias r='ruby'
 
 # git stuff
 
-PS1='$PWD\n[\u@\h]: '
-
 if [ -f /usr/local/git/contrib/completion/git-completion.bash  ] ; then
   source /usr/local/git/contrib/completion/git-completion.bash 
 fi
 
 PS1='$PWD$(__git_ps1 " (%s)")\n[\u@\h] '
+
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:/usr/local/mysql/lib:
