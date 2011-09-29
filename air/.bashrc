@@ -1,4 +1,4 @@
-# .bashrc
+# ~/.bashrc, macbook air
 
 # User specific aliases and functions
 
