@@ -15,7 +15,8 @@
     d  = diff
     ds = diff --cached # diff staged changes
     p  = push
-    l  = log --graph --decorate --pretty=oneline --abbrev-commit
+    ll = log --graph --numstat --abbrev-commit
+    l  = log --graph --numstat --decorate --pretty=oneline --abbrev-commit
 
     unstage = reset HEAD
     u       = reset HEAD
