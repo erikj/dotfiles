@@ -12,6 +12,7 @@ alias cp='cp -v'
 alias du1='du -d 0 -h'
 
 alias a='ack'
+alias e='emacs'
 alias g='git'
 alias p='python'
 alias r='ruby'
