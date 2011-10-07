@@ -6,8 +6,8 @@
     ui = auto
 
 [alias]
-    s  = status
-    sb = status -sb
+    ss = status
+    s  = status -sb
     cl = config --list
     a  = add
     ci = commit

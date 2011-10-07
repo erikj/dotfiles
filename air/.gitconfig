@@ -7,7 +7,7 @@
 
 [alias]
     ss  = status
-    s = status -sb
+    s   = status -sb
     cl = config --list
     a  = add
     ci = commit
