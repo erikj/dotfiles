@@ -22,6 +22,10 @@ if [ -d /usr/local/bin ] ; then
     PATH=/usr/local/bin:$PATH
 fi
 
+if [ -d /usr/local/git/bin ] ; then
+   PATH=/usr/local/git/bin:$PATH
+fi
+
 if [ -d /usr/local/mysql/bin ] ; then
   PATH=/usr/local/mysql/bin:$PATH
 fi
