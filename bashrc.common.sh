@@ -12,11 +12,12 @@ alias cp='cp -v'
 alias du1='du -d 0 -h'
 
 alias a='ack'
+alias c='cat'
 alias e='emacs'
 alias g='git'
 alias p='python'
 alias r='ruby'
-
+alias t='touch'
 # networking
 
 alias moleculus='ssh molecule@molecul.us'
