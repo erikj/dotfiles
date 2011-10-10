@@ -20,6 +20,10 @@ if [ -d /usr/local/bin ] ; then
     PATH=/usr/local/bin:$PATH
 fi
 
+if [ -d /usr/local/git/bin ] ; then
+   PATH=/usr/local/git/bin:$PATH
+fi
+
 # MacPorts Installer addition on 2011-05-18_at_12:02:34: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
