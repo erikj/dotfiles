@@ -12,6 +12,11 @@ if [ -f ~/bashrc.common.sh ]; then
 	. ~/bashrc.common.sh
 fi
 
+# Source common osx-paltform user definitions
+if [ -f ~/bashrc.osx.sh ]; then
+  . ~/bashrc.osx.sh
+fi
+
 if [ -d ~/bin ] ; then
     PATH=~/bin:$PATH
 fi
@@ -30,13 +35,6 @@ if [ -d /usr/local/mysql/bin ] ; then
   PATH=/usr/local/mysql/bin:$PATH
 fi
 
-# MacPorts
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-
-export EDITOR="mate -w"
-export CVSEDITOR="mate -w"
-export SVN_EDITOR="mate -w"
-
 export EVENT_NOKQUEUE='1'
 
 set -o emacs
@@ -49,11 +47,7 @@ alias mmz='mysql -u zarf -p`cat ~/.my.merlot.zarf.passwd` -h merlot zith9b'
 alias mcz='mysql -u ruby -p`cat ~/.my.ctm-dev.ruby.passwd` -h ctm-dev zith9b'
 alias writer='/Applications/iA\ Writer.app/Contents/MacOS/iA\ Writer'
 
-alias cprojects='cd /Users/molecule/projects'
-alias cdotfiles='cd /Users/molecule/projects/dotfiles'
-
 # alias =''
-alias m='mate'
 
 # RVM stuff
 

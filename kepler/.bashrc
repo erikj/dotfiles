@@ -10,6 +10,11 @@ if [ -f ~/bashrc.common.sh ]; then
 	. ~/bashrc.common.sh
 fi
 
+# Source common osx-paltform user definitions
+if [ -f ~/bashrc.osx.sh ]; then
+  . ~/bashrc.osx.sh
+fi
+
 if [ -d ~/bin ] ; then
     PATH=~/bin:$PATH
 fi
@@ -24,13 +29,6 @@ if [ -d /usr/local/git/bin ] ; then
    PATH=/usr/local/git/bin:$PATH
 fi
 
-# MacPorts Installer addition on 2011-05-18_at_12:02:34: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-
-export EDITOR="mate -w"
-export CVSEDITOR="mate -w"
-export SVN_EDITOR="mate -w"
-
 export EVENT_NOKQUEUE='1'
 
 set -o emacs
@@ -41,12 +39,6 @@ alias ccatalog='cd /Users/ej/UCAR/git/catalog_ui'
 alias mz='mysql -u root zith9b'
 alias mmz='mysql -u zarf -p`cat ~/.my.merlot.zarf.passwd` -h merlot zith9b'
 alias mcz='mysql -u ruby -p`cat ~/.my.ctm-dev.ruby.passwd` -h ctm-dev zith9b'
-
-alias cprojects='cd /Users/ej/projects'
-alias cdotfiles='cd /Users/ej/projects/dotfiles'
-
-# alias =''
-alias m='mate'
 
 # RVM stuff
 
