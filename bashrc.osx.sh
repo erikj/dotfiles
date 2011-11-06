@@ -10,7 +10,7 @@ alias gmail='open https://mail.google.com/'
 alias weather="open http://www.wunderground.com/cgi-bin/findweather/getForecast?query=80301"
 alias m='mate'
 
-alias cprojects='cd ~/projects'
-alias cdotfiles='cd ~/projects/dotfiles'
+alias cprojects='cd ~/Dropbox/projects'
+alias cdotfiles='cd ~/Dropbox/projects/dotfiles'
 
 
