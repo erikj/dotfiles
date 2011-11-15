@@ -1,0 +1,25 @@
+[user]
+    name  = Erik Johnson
+    email = ej@ucar.edu
+
+[core]
+    editor = emacs
+
+[color]
+    ui = auto
+
+[alias]
+    ss = status
+    s  = status -sb
+    cl = config --list
+    a  = add
+    ci = commit
+    co = checkout
+    d  = diff
+    ds = diff --cached # diff staged changes
+    p  = push
+    ll = log --graph --numstat --abbrev-commit
+    l  = log --graph --numstat --decorate --pretty=oneline --abbrev-commit
+
+    unstage = reset HEAD
+    u       = reset HEAD
