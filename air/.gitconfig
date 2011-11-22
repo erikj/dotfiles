@@ -16,7 +16,7 @@
     ds = diff --cached # diff staged changes
     p  = push
     ll = log --graph --numstat --abbrev-commit
-    l  = log --graph --numstat --decorate --pretty=oneline --abbrev-commit
-
+    # l  = log --graph --numstat --decorate --pretty=oneline --abbrev-commit
+    l  = log --graph --pretty='format:%C(yellow)%h%Cblue%d%Creset %s.%C(white) %an, %ar%Creset'
     unstage = reset HEAD
     u       = reset HEAD
