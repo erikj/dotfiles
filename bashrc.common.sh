@@ -3,7 +3,7 @@
 alias ls='ls -FG' # add some color, trailing dir and link indicators
 alias l='ls'
 alias l1='ls -1'
-alias ll='ls -l'
+alias ll='ls -la'
 alias lh='ls -lh'
 alias ..='cd ..'
 alias rm='rm -v'
