@@ -1,6 +1,18 @@
 # aliases
 
-alias ls='ls -FG' # add some color, trailing dir and link indicators
+case `uname` in
+Linux)
+  # GNU / Linux
+  # echo "Linux match found"
+  alias ls='ls -F --color' # add some color, trailing dir and link indicators
+  ;;
+*)
+  # BSD / -derived, eg. Mac OSX, etc.
+  # echo "BSD"
+  alias ls='ls -FG' # add some color, trailing dir and link indicators
+  ;;
+esac
+
 alias l='ls'
 alias l1='ls -1'
 alias ll='ls -la'
