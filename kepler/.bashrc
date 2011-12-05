@@ -1,32 +1,8 @@
 # ~/.bashrc, kepler.eol.ucar.edu
 
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
-fi
-
 # Source common user definitions
 if [ -f ~/bashrc.common.sh ]; then
 	. ~/bashrc.common.sh
-fi
-
-# Source common osx-paltform user definitions
-if [ -f ~/bashrc.osx.sh ]; then
-  . ~/bashrc.osx.sh
-fi
-
-if [ -d ~/bin ] ; then
-    PATH=~/bin:$PATH
-fi
-
-PATH=/sbin:/usr/sbin:$PATH
-
-if [ -d /usr/local/bin ] ; then
-    PATH=/usr/local/bin:$PATH
-fi
-
-if [ -d /usr/local/git/bin ] ; then
-   PATH=/usr/local/git/bin:$PATH
 fi
 
 export EVENT_NOKQUEUE='1'

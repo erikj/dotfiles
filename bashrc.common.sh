@@ -1,4 +1,9 @@
-# aliases
+
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# aliases and PATHs
 
 case `uname` in
 Linux)
@@ -9,9 +14,25 @@ Linux)
 *)
   # BSD / -derived, eg. Mac OSX, etc.
   # echo "BSD"
+  # Source common osx-paltform user definitions
+
+  if [ -f ~/bashrc.osx.sh ]; then
+    . ~/bashrc.osx.sh
+  fi
+
   alias ls='ls -FG' # add some color, trailing dir and link indicators
   ;;
 esac
+
+PATH=/sbin:/usr/sbin:$PATH
+
+if [ -d /usr/local/bin ] ; then
+    PATH=/usr/local/bin:$PATH
+fi
+
+if [ -d /usr/local/git/bin ] ; then
+   PATH=/usr/local/git/bin:$PATH
+fi
 
 alias l='ls'
 alias l1='ls -1'
