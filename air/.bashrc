@@ -35,6 +35,10 @@ if [ -d /usr/local/mysql/bin ] ; then
   PATH=/usr/local/mysql/bin:$PATH
 fi
 
+if [ -d /Users/molecule/node_modules/.bin ] ; then
+  PATH=/Users/molecule/node_modules/.bin:$PATH
+fi
+
 export EVENT_NOKQUEUE='1'
 
 set -o emacs
