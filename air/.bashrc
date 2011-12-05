@@ -1,5 +1,10 @@
 # ~/.bashrc, macbook air
 
+# Source common user definitions
+if [ -f ~/bashrc.common.sh ]; then
+  . ~/bashrc.common.sh
+fi
+
 if [ -d /usr/local/mysql/bin ] ; then
   PATH=/usr/local/mysql/bin:$PATH
 fi
