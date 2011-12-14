@@ -2,7 +2,7 @@
 
 # Source common user definitions
 if [ -f ~/bashrc.common.sh ]; then
-	. ~/bashrc.common.sh
+  . ~/bashrc.common.sh
 fi
 
 export EVENT_NOKQUEUE='1'
@@ -11,7 +11,6 @@ set -o emacs
 
 # LOCAL COMMAND LINE STUFF
 
-alias ccatalog='cd /Users/ej/UCAR/git/catalog_ui'
 alias mz='mysql -u root zith9'
 alias mmz='mysql -u zarf -p`cat ~/.my.merlot.zarf.passwd` -h merlot zith9b'
 alias mcz='mysql -u ruby -p`cat ~/.my.ctm-dev.ruby.passwd` -h ctm-dev zith9b'
