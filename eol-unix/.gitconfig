@@ -18,8 +18,11 @@
     d  = diff
     ds = diff --cached # diff staged changes
     p  = push
+    b  = branch
+    m  = merge
     ll = log --graph --numstat --abbrev-commit
     l  = log --graph --numstat --decorate --pretty=oneline --abbrev-commit
+    ba = branch -a # list all branches
 
     unstage = reset HEAD
     u       = reset HEAD
