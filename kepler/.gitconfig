@@ -24,3 +24,6 @@
 
     unstage = reset HEAD
     u       = reset HEAD
+
+    develop = checkout develop
+    master  = checkout master
