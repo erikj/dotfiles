@@ -8,3 +8,4 @@ IRB.conf[:PROMPT_MODE] = :SIMPLE
 
 # pretty print
 require 'pp'
+require 'rubygems'
