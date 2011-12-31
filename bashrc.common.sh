@@ -56,3 +56,4 @@ alias t='touch'
 alias moleculus='ssh molecule@molecul.us'
 
 PS1='$PWD\n[\u@\h] '
+export TZ='MST7MDT'
