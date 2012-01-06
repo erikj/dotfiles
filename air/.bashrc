@@ -26,9 +26,11 @@ alias writer='/Applications/iA\ Writer.app/Contents/MacOS/iA\ Writer'
 
 # alias =''
 
-# RVM stuff
+# RVM
 
-[[ -s "/Users/molecule/.rvm/scripts/rvm" ]] && source "/Users/molecule/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+rvm_env="/usr/local/rvm/scripts/rvm"
+
+[[ -s $rvm_env ]] && source $rvm_env  # load RVM into a shell session.
 
 # git stuff
 
