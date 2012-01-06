@@ -1,4 +1,4 @@
-export rvm_path="$HOME/.rvm"
+export rvm_path="/usr/local/rvm"
 
 # http://beginrescueend.com/workflow/rvmrc/
 # As of RVM 1.7.0 project .rvmrc files are opt-in by defualt (therefore off).
