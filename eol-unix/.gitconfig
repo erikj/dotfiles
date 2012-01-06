@@ -19,7 +19,7 @@
     ds = diff --cached # diff staged changes
     p  = push
     b  = branch
-    m  = merge
+    m  = merge --no-ff
     ll = log --graph --numstat --abbrev-commit
     l  = log --graph --numstat --decorate --pretty=oneline --abbrev-commit
     ba = branch -a # list all branches
