@@ -13,8 +13,9 @@ fi
 # User specific aliases and functions
 PS1='$PWD\n[\u@\h]: '
 
-alias ccatalog='cd ~ej/git/catalog_ui'
+alias ccatalog='cd /usr/local/catalog_ui'
 
 
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"  # This loads RVM into a shell session.
 
+export EDITOR='emacs'
