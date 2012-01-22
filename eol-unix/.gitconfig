@@ -10,7 +10,8 @@
 
 [alias]
     ss = status
-    s  = status -sb
+    # s  = status -sb # not in git 1.7.1
+    s  = status -s
     cl = config --list
     a  = add
     ci = commit
