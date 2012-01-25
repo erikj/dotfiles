@@ -13,7 +13,7 @@ fi
 # User specific aliases and functions
 PS1='$PWD\n[\u@\h]: '
 
-alias ccatalog='cd /usr/local/catalog_ui'
+alias ccatalog='cd /usr/local/catalog/catalog_ui'
 
 
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"  # This loads RVM into a shell session.
