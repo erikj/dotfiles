@@ -1,6 +1,6 @@
 [user]
     name  = erikj
-    email = root@erikj.info
+    email = erik@erikj.me
 
 [color]
     ui = auto
@@ -20,6 +20,7 @@
     ll = log --graph --numstat --abbrev-commit
     # l  = log --graph --numstat --decorate --pretty=oneline --abbrev-commit
     l  = log --graph --pretty='format:%C(yellow)%h%Cblue%d%Creset %s.%C(white) %an, %ar%Creset'
+    lp = log -p
     ba = branch -a # list all branches
 
     unstage = reset HEAD
