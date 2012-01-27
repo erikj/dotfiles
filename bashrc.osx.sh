@@ -10,6 +10,7 @@ alias gmail='open https://mail.google.com/'
 alias weather="open http://www.wunderground.com/cgi-bin/findweather/getForecast?query=80301"
 alias m='subl'
 alias s='subl'
+alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc'
 
 alias cdropbox='cd ~/Dropbox'
 alias cprojects='cd ~/Dropbox/projects'
