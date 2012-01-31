@@ -23,7 +23,7 @@
     m  = merge --no-ff
     ll = log --graph --numstat --abbrev-commit
     l  = log --graph --numstat --decorate --pretty=oneline --abbrev-commit
-    ba = branch -a # list all branches
+    ba = branch -a -vv # list all branches
 
     unstage = reset HEAD
     u       = reset HEAD

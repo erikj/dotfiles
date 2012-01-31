@@ -18,10 +18,9 @@
     b  = branch
     m  = merge --no-ff
     ll = log --graph --numstat --abbrev-commit
-    # l  = log --graph --numstat --decorate --pretty=oneline --abbrev-commit
     l  = log --graph --pretty='format:%C(yellow)%h%Cblue%d%Creset %s.%C(white) %an, %ar%Creset'
     lp = log -p
-    ba = branch -a # list all branches
+    ba = branch -a -vv # list all branches
 
     unstage = reset HEAD
     u       = reset HEAD
