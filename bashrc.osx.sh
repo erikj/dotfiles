@@ -2,6 +2,12 @@
 # MacPorts
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
+# node / npm
+
+if [ -d ~/node_modules/.bin ] ; then
+  export PATH=~/node_modules/.bin:$PATH
+fi
+
 export EDITOR="mate -w"
 export CVSEDITOR="mate -w"
 export SVN_EDITOR="mate -w"
