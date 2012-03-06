@@ -1,0 +1,5 @@
+# rails 3.2+ only
+--skip-javascript
+--skip-bundle
+--skip-test-unit
+--skip-git # no .gitkeeps!!!
