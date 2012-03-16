@@ -34,8 +34,11 @@ rvm_env="/usr/local/rvm/scripts/rvm"
 
 # git stuff
 
-if [ -f /usr/local/git/contrib/completion/git-completion.bash  ] ; then
-  source /usr/local/git/contrib/completion/git-completion.bash
+
+git_completion="/Users/molecule/bin/git-completion.bash"
+
+if [ -f $git_completion ] ; then
+  . $git_completion
 fi
 
 PS1='$PWD$(__git_ps1 " (%s)")\n[\u@\h] '
