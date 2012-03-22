@@ -26,3 +26,7 @@ defaults write -g NSNavPanelExpandedStateForSaveMode -bool true
 
 # Reset Launchpad
 [ -e ~/Library/Application\ Support/Dock/*.db ] && rm ~/Library/Application\ Support/Dock/*.db
+
+# iTunes dark list / mode
+# http://blog.alphanegative.com/2011/03/how-to-get-a-dark-itunes-list-in-itunes-10-for-os-x/
+defaults write com.apple.iTunes high-contrast-mode-enable -bool TRUE
