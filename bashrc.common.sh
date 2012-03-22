@@ -30,6 +30,10 @@ if [ -d /usr/local/bin ] ; then
     PATH=/usr/local/bin:$PATH
 fi
 
+if [ -d /usr/local/sbin ] ; then
+    PATH=/usr/local/sbin:$PATH
+fi
+
 if [ -d /usr/local/git/bin ] ; then
    PATH=/usr/local/git/bin:$PATH
 fi
