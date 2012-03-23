@@ -26,6 +26,10 @@ esac
 
 PATH=/sbin:/usr/sbin:$PATH
 
+if [ -d ~/bin ] ; then
+    PATH=~/bin:$PATH
+fi
+
 if [ -d /usr/local/bin ] ; then
     PATH=/usr/local/bin:$PATH
 fi
