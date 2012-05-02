@@ -59,6 +59,7 @@ alias g='git'
 alias p='python'
 alias r='ruby'
 alias t='touch'
+alias be='bundle exec'
 # networking
 
 alias moleculus='ssh molecule@molecul.us'
