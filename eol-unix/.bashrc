@@ -16,7 +16,16 @@ PS1='$PWD\n[\u@\h]: '
 alias ccatalog='cd /usr/local/catalog/catalog_ui'
 alias ce2='cd /usr/local/catalog/catalog-maps'
 
+# This loads RVM into a shell session.
+if [ `uname -n` = 'sferic.eol.ucar.edu' ]; then
+  export rvm_path=/h/eol/ej/.rvm
+  [[ -s "/h/eol/ej/.rvm/scripts/rvm" ]] && source "/h/eol/ej/.rvm/scripts/rvm"
+else
+  [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm" 
+fi
 
-[[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"  # This loads RVM into a shell session.
+
+
+
 
 export EDITOR='emacs'
