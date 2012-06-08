@@ -21,3 +21,6 @@ alias cdc3='cd /net/web/catalog/html/dc3_2012'
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"
 
 export EDITOR='emacs'
+
+# set umask for group write
+umask 0002
