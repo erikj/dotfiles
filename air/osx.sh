@@ -30,3 +30,7 @@ defaults write -g NSNavPanelExpandedStateForSaveMode -bool true
 # iTunes dark list / mode
 # http://blog.alphanegative.com/2011/03/how-to-get-a-dark-itunes-list-in-itunes-10-for-os-x/
 defaults write com.apple.iTunes high-contrast-mode-enable -bool TRUE
+
+# a handy little tweak for the Dock that will cause a pop-up window to
+# momentarily appear each time iTunes begins playing a new track
+defaults write com.apple.dock itunes-notifications -bool TRUE;killall Dock
