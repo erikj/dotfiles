@@ -34,3 +34,21 @@ defaults write com.apple.iTunes high-contrast-mode-enable -bool TRUE
 # a handy little tweak for the Dock that will cause a pop-up window to
 # momentarily appear each time iTunes begins playing a new track
 defaults write com.apple.dock itunes-notifications -bool TRUE;killall Dock
+
+# http://osxdaily.com/2011/09/14/disable-the-internal-screen-on-a-macbook-pro-or-air-in-mac-os-x-10-7-lion/
+# To disable the internal screen for OS X Lion based laptops, launch the Terminal and enter the following command:
+# sudo nvram boot-args="iog=0x0"
+
+# You’ll need to reboot for changes to take effect, and the internal display will then be completely disabled regardless of whether the Mac is open or closed.
+# To undo this, you can go back to the Terminal and enter:
+# sudo nvram -d boot-args
+
+# display boot-args:
+# nvram boot-args
+
+# boot in verbose mode
+# http://osxdaily.com/2007/03/25/always-boot-mac-os-x-in-verbose-mode/
+# sudo nvram boot-args="-v"
+
+# concatenate nvram boot-args:
+# sudo nvram boot-args="-v iog=0x0"
