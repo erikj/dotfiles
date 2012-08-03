@@ -11,7 +11,6 @@ if [ -f ~/bashrc.common.sh ]; then
 fi
 
 # User specific aliases and functions
-PS1='$PWD\n[\u@\h]: '
 
 alias ccatalog='cd /usr/local/catalog/catalog_ui'
 alias ce2='cd /usr/local/catalog/catalog-maps'
@@ -24,3 +23,11 @@ export EDITOR='emacs'
 
 # set umask for group write
 umask 0002
+
+# https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
+if [ -f ~/bin/git-completion.bash ] ; then
+  source ~/bin/git-completion.bash
+  PS1='$PWD$(__git_ps1 " (%s)")\n[\u@\h] '
+else
+  PS1='$PWD\n[\u@\h]: '
+fi
