@@ -25,6 +25,7 @@
     l  = log --graph --numstat --decorate --pretty=oneline --abbrev-commit
     lp = log -p
     ba = branch -a -vv # list all branches
+    today = log -p --since '1 day ago' # show committed changes from last 24h
 
     unstage = reset HEAD
     u       = reset HEAD
