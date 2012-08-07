@@ -23,6 +23,7 @@
     ll = log --graph --numstat --abbrev-commit
     l  = log --graph --pretty='format:%C(yellow)%h%Cblue%d%Creset %s.%C(white) %an, %ar%Creset'
     lp = log -p
+    today = log -p --since '1 days ago'
 
     unstage = reset HEAD
     u       = reset HEAD
