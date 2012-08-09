@@ -28,3 +28,6 @@
 
     develop = checkout develop
     master  = checkout master
+
+[github]
+    user = erikj
