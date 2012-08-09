@@ -8,9 +8,8 @@ if [ -d ~/node_modules/.bin ] ; then
   export PATH=~/node_modules/.bin:$PATH
 fi
 
-export EDITOR="mate -w"
-export CVSEDITOR="mate -w"
-export SVN_EDITOR="mate -w"
+export EDITOR="subl --wait"
+export SVN_EDITOR="subl --wait"
 
 alias gmail='open https://mail.google.com/'
 alias weather="open http://www.wunderground.com/cgi-bin/findweather/getForecast?query=80301"
