@@ -2,6 +2,10 @@
     name  = erikj
     email = erik@erikj.me
 
+[push]
+    # upstream - push the current branch to its upstream branch.
+    default = upstream
+
 [color]
     ui = auto
 

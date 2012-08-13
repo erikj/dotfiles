@@ -2,6 +2,10 @@
     name  = Erik Johnson
     email = ej@ucar.edu
 
+[push]
+    # upstream - push the current branch to its upstream branch.
+    default = upstream
+
 [core]
     editor = emacs
 
