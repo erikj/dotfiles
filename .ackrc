@@ -2,3 +2,5 @@
 --type-set=haml=.haml
 --type-set=sass=.sass
 --type-set=coffee=.coffee
+--type-set=conf=.conf,.config
+--type-set=markdown=.md,.markdown
