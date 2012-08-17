@@ -20,3 +20,6 @@ defaults write com.apple.dock itunes-notifications -bool TRUE;killall Dock
 
 # Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
+# Disable Desktop, http://www.cultofmac.com/133265/turn-off-your-desktop-os-x-tips/
+defaults write com.apple.finder CreateDesktop -bool FALSE;killall Finder

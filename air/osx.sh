@@ -35,6 +35,9 @@ defaults write com.apple.iTunes high-contrast-mode-enable -bool TRUE
 # momentarily appear each time iTunes begins playing a new track
 defaults write com.apple.dock itunes-notifications -bool TRUE;killall Dock
 
+# Disable Desktop, http://www.cultofmac.com/133265/turn-off-your-desktop-os-x-tips/
+defaults write com.apple.finder CreateDesktop -bool FALSE;killall Finder
+
 # http://osxdaily.com/2011/09/14/disable-the-internal-screen-on-a-macbook-pro-or-air-in-mac-os-x-10-7-lion/
 # To disable the internal screen for OS X Lion based laptops, launch the Terminal and enter the following command:
 # sudo nvram boot-args="iog=0x0"
