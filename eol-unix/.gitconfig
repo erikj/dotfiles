@@ -4,7 +4,8 @@
 
 [push]
     # upstream - push the current branch to its upstream branch.
-    default = upstream
+    # default = upstream
+    default = tracking # for old git
 
 [core]
     editor = emacs
