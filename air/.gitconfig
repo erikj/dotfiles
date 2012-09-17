@@ -24,7 +24,9 @@
     ll = log --graph --numstat --abbrev-commit
     l  = log --graph --pretty='format:%C(yellow)%h%Cblue%d%Creset %s.%C(white) %an, %ar%Creset'
     lp = log -p
-    ba = branch -a -vv # list all branches
+    ba = branch -a       # list all branches
+    bav = branch -a -v   # list all branches, verbosely
+    bavv = branch -a -vv # list all branches, verbosely, list upstream branch
     today = log -p --since '1 day ago' # show committed changes from last 24h
 
     unstage = reset HEAD
