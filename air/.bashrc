@@ -40,3 +40,5 @@ fi
 PS1='$PWD$(__git_ps1 " (%s)")\n[\u@\h] '
 
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:/usr/local/mysql/lib:
+
+PATH=$PATH:/usr/local/rvm/bin # Add RVM to PATH for scripting
