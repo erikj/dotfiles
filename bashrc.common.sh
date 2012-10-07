@@ -54,6 +54,7 @@ alias du1='du -d 0 -h'
 
 alias a='ack'
 alias c='cat'
+alias d='diff'
 alias e='emacs'
 alias g='git'
 alias p='python'
