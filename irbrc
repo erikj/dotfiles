@@ -14,7 +14,7 @@ IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-history"
 
 IRB.conf[:PROMPT][:CUSTOM] = { # name of prompt mode
   # normal prompt
-  :PROMPT_I => "#{(defined? RUBY_ENGINE) ? RUBY_ENGINE : 'ruby' }-#{RUBY_VERSION}-p#{RUBY_PATCHLEVEL} >> ",
+  :PROMPT_I => "#{(defined? RUBY_ENGINE) ? RUBY_ENGINE : 'ruby' }-#{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}>> ",
   :PROMPT_S => "",     # prompt for continuing strings
   :PROMPT_C => "?>",   # prompt for continuing statement
   :PROMPT_N => ".. ",  # prompt when indenting code
