@@ -8,6 +8,7 @@ IRB.conf[:AUTO_INDENT]=true
 IRB.conf[:SAVE_HISTORY] = 2000
 IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-history"
 
+# custom prompt to display ruby engine and version
 # http://ruby-doc.org/docs/ProgrammingRuby/html/irb.html
 # http://tagaholic.me/2009/05/29/exploring-how-to-configure-irb.html
 
