@@ -1,3 +1,5 @@
+# ~/.irbrc
+
 # history
 require 'irb/ext/save-history'
 # completion and auto-indent, http://drnicwilliams.com/2006/10/12/my-irbrc-for-consoleirb/
