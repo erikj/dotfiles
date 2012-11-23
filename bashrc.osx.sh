@@ -27,3 +27,8 @@ alias cmaps='cd ~/Dropbox/UCAR/catalog-maps'
 alias ce2='cd ~/Dropbox/UCAR/catalog-maps'
 alias cnagios='cd ~/Dropbox/UCAR/catalog-nagios'
 alias czith='cd ~/Dropbox/UCAR/zith'
+
+# dev workflow
+alias h='heroku'
+alias deploy='git push heroku master'
+alias restart='touch tmp/restart.txt'
