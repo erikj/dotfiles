@@ -28,3 +28,4 @@ fi
 PS1='$PWD$(__git_ps1 " (%s)")\n[\u@\h] '
 
 PATH=$PATH:/usr/local/rvm/bin # Add RVM to PATH for scripting
+PATH="/usr/local/heroku/bin:$PATH"
