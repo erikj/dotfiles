@@ -33,3 +33,5 @@ if [ -f ~/bin/git-completion.bash ] ; then
 else
   PS1='$PWD\n[\u@\h]: '
 fi
+
+PATH=$PATH:/usr/local/rvm/bin # Add RVM to PATH for scripting
