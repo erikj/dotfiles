@@ -13,6 +13,7 @@ fi
 # User specific aliases and functions
 
 alias ccatalog='cd /usr/local/catalog/catalog_ui'
+alias cmaps='cd /usr/local/catalog/catalog-maps'
 alias ce2='cd /usr/local/catalog/catalog-maps'
 alias cdc3='cd /net/web/catalog/html/dc3_2012'
 alias cnagios='cd /usr/local/catalog/catalog-nagios'
