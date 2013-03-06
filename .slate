@@ -1,3 +1,18 @@
+# air:
+
+#default myLayout count:1
+#bind 1:ctrl layout myLayout
+
+# air + Dell 2408WFP:
+
+layout myLayout2 'Google Chrome' push right bar-resize:screenSizeX/2
+layout myLayout2 'Sublime Text 2' corner bottom-left resize:screenSizeX/2;660 1
+layout myLayout2 'iTerm' corner top-left 1
+bind 2:ctrl layout myLayout2
+
+default myLayout2 resolutions:1366x768;1920x1200
+
+
 # copied from https://github.com/jigish/slate/blob/master/Slate/default.slate
 
 config defaultToCurrentScreen true
