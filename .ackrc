@@ -4,3 +4,4 @@
 --type-set=coffee=.coffee
 --type-set=conf=.conf,.config
 --type-set=markdown=.md,.markdown
+--type-set=ruby=.rb,.ru,.thor,.rake,Gemfile,Rakefile
