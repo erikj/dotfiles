@@ -27,6 +27,7 @@ alias cmaps='cd ~/Dropbox/NCAR/catalog-maps'
 alias ce2='cd ~/Dropbox/NCAR/catalog-maps'
 alias cnagios='cd ~/Dropbox/NCAR/catalog-nagios'
 alias czith='cd ~/Dropbox/NCAR/zith'
+alias cweb='cd ~/Dropbox/NCAR/web'
 
 # dev workflow
 alias h='heroku'

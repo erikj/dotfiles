@@ -17,6 +17,7 @@ alias cmaps='cd /usr/local/catalog/catalog-maps'
 alias ce2='cd /usr/local/catalog/catalog-maps'
 alias cdc3='cd /net/web/catalog/html/dc3_2012'
 alias cnagios='cd /usr/local/catalog/catalog-nagios'
+alias cweb='cd ~/svn/web'
 
 # This loads RVM into a shell session.
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"
