@@ -44,3 +44,4 @@
 
 [github]
     user = erikj
+    password = !~/bin/ghpw
