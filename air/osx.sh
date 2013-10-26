@@ -45,6 +45,10 @@ defaults write com.apple.dock itunes-notifications -bool TRUE;killall Dock
 # Disable Desktop, http://www.cultofmac.com/133265/turn-off-your-desktop-os-x-tips/
 defaults write com.apple.finder CreateDesktop -bool FALSE;killall Finder
 
+# http://www.defaults-write.com/disable-dashboard-as-a-space-in-mission-control/#.UmxKJJQRRe4
+# display dashboard as an overlay, not its own space
+defaults write com.apple.dock dashboard-in-overlay -bool true
+
 # http://osxdaily.com/2011/09/14/disable-the-internal-screen-on-a-macbook-pro-or-air-in-mac-os-x-10-7-lion/
 # To disable the internal screen for OS X Lion based laptops, launch the Terminal and enter the following command:
 # sudo nvram boot-args="iog=0x0"
