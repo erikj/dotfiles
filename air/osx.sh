@@ -2,6 +2,13 @@
 # inspired by: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 # resource: http://secrets.blacktree.com/
 
+# disable spotlight: http://osxdaily.com/2011/12/10/disable-or-enable-spotlight-in-mac-os-x-lion/
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+sudo mdsutil -i off
+# remove spotlight icon
+sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
+killall SystemUIServer
+
 # Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
