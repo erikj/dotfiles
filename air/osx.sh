@@ -55,3 +55,7 @@ defaults write com.apple.finder CreateDesktop -bool FALSE;killall Finder
 
 # concatenate nvram boot-args:
 # sudo nvram boot-args="-v iog=0x0"
+
+# disable boot chime
+# https://discussions.apple.com/thread/3208783?start=120&tstart=0
+# sudo nvram SystemAudioVolume="%00"
