@@ -17,24 +17,5 @@
 [color]
     ui = auto
 
-[alias]
-    ss = status
-    # s  = status -sb # not in git 1.7.1
-    s  = status -s
-    cl = config --list
-    a  = add
-    ci = commit
-    co = checkout
-    d  = diff
-    ds = diff --cached # diff staged changes
-    p  = push
-    b  = branch
-    m  = merge --no-ff
-    ll = log --graph --numstat --abbrev-commit
-    l  = log --graph --numstat --decorate --pretty=oneline --abbrev-commit
-    lp = log -p
-    ba = branch -a -vv # list all branches
-    today = log -p --since '1 day ago' # show committed changes from last 24h
-
-    unstage = reset HEAD
-    u       = reset HEAD
+[include]
+    path = ~/.gitconfig.aliases
