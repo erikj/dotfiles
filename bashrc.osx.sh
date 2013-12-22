@@ -18,6 +18,8 @@ alias s='subl'
 alias sp='subl *.sublime-project'
 alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc'
 
+alias eject='diskutil eject'
+
 alias cdropbox='cd ~/Dropbox'
 alias cprojects='cd ~/Dropbox/projects'
 alias cdotfiles='cd ~/Dropbox/projects/dotfiles'
