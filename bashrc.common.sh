@@ -14,7 +14,7 @@ Linux)
 *)
   # BSD / -derived, eg. Mac OSX, etc.
   # echo "BSD"
-  # Source common osx-paltform user definitions
+  # Source common osx-platform user definitions
 
   if [ -f ~/bashrc.osx.sh ]; then
     . ~/bashrc.osx.sh
