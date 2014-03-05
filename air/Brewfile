@@ -1,0 +1,33 @@
+# Brewfile for new macbook air
+
+# general dev
+
+install git mysql bash apache sublime-text wget ack
+
+tap djl/homebrew-apache2
+
+install djl/apache2/apache22
+
+# ruby / rails dev
+
+install anvil libyaml
+
+# install cask
+
+tap phinze/cask
+
+install brew-cask
+
+# available casks
+
+# browsers
+
+cask install google-chrome firefox
+
+# editors / dev
+
+cast install iterm2 sublime-text haroopad virtualbox vagrant dash
+
+# desktop / general
+
+cask install namely thunderbird skype vlc truecrypt gnupg dropbox f-lux menumeters
