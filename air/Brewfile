@@ -2,7 +2,11 @@
 
 # general dev
 
-install git mysql bash apache sublime-text wget ack
+install git
+install mysql
+install bash
+install wget
+install ack
 
 tap djl/homebrew-apache2
 
@@ -10,24 +14,42 @@ install djl/apache2/apache22
 
 # ruby / rails dev
 
-install anvil libyaml
-
-# install cask
+install libyaml
 
 tap phinze/cask
 
 install brew-cask
 
-# available casks
+# available casks: https://github.com/phinze/homebrew-cask/tree/master/Casks
+
+# FIXME: break installs into separate lines: when package is installed, Warning is thrown and subsequent pacakges aren't installed
 
 # browsers
 
-cask install google-chrome firefox
+cask install google-chrome
+cask install firefox
 
 # editors / dev
 
-cast install iterm2 sublime-text haroopad virtualbox vagrant dash
+cask install iterm2
+cask install sublime-text
+cask install haroopad
+cask install virtualbox
+cask install vagrant
+cask install dash
+cask install anvil
+cask install launchrocket
 
 # desktop / general
 
-cask install namely thunderbird skype vlc truecrypt gnupg dropbox f-lux menumeters
+cask install namely
+cask install thunderbird
+cask install skype
+cask install vlc
+cask install truecrypt
+cask install gpgtools
+cask install dropbox
+cask install flux
+cask install menumeters
+
+# http://support.gpgtools.org/kb/how-to/first-steps-where-do-i-start-where-do-i-begin
