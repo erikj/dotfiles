@@ -32,7 +32,7 @@ rvm_env="/usr/local/rvm/scripts/rvm"
 
 # https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 
-git_completion="/Users/molecule/bin/git-completion.bash"
+git_completion="/usr/local/etc/bash_completion.d/git-completion.bash"
 
 if [ -f $git_completion ] ; then
   . $git_completion
@@ -40,7 +40,7 @@ fi
 
 # https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
 
-git_prompt="/Users/molecule/bin/git-prompt.sh"
+git_prompt="/usr/local/etc/bash_completion.d/git-prompt.sh"
 
 if [ -f $git_prompt ] ; then
   . $git_prompt
