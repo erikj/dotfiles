@@ -16,6 +16,21 @@ install djl/apache2/apache22
 
 install libyaml
 
+
+# To allow the nokogiri gem to link against this libxslt run:
+# gem install nokogiri -- --with-xslt-dir=/usr/local/opt/libxslt
+
+
+install libxml2
+install libxslt
+
+# Warning: libxml2 is keg-only and must be linked with --force
+# Note that doing so can interfere with building software.
+# Warning: libxslt is keg-only and must be linked with --force
+# Note that doing so can interfere with building software.
+
+link libxml2 libxslt
+
 tap phinze/cask
 
 install brew-cask
