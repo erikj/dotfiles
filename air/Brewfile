@@ -31,11 +31,14 @@ install libxslt
 
 link libxml2 libxslt
 
+# cask
+
+# usage: https://github.com/phinze/homebrew-cask/blob/master/USAGE.md
+# casks: https://github.com/phinze/homebrew-cask/tree/master/Casks
+
 tap phinze/cask
 
 install brew-cask
-
-# available casks: https://github.com/phinze/homebrew-cask/tree/master/Casks
 
 # browsers
 
