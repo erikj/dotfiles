@@ -30,16 +30,25 @@ rvm_env="/usr/local/rvm/scripts/rvm"
 
 # git stuff
 
+# https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 
-git_completion="/Users/molecule/bin/git-completion.bash"
+git_completion="/usr/local/etc/bash_completion.d/git-completion.bash"
 
 if [ -f $git_completion ] ; then
   . $git_completion
 fi
 
-PS1='$PWD$(__git_ps1 " (%s)")\n[\u@\h] '
+# https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
+
+git_prompt="/usr/local/etc/bash_completion.d/git-prompt.sh"
+
+if [ -f $git_prompt ] ; then
+  . $git_prompt
+  PS1='$PWD$(__git_ps1 " (%s)")\n[\u@\h] '
+fi
 
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:/usr/local/mysql/lib:
 
 PATH=$PATH:/usr/local/rvm/bin # Add RVM to PATH for scripting
+
 PATH="/usr/local/heroku/bin:$PATH"
