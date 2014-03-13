@@ -2,4 +2,4 @@
 --skip-javascript
 --skip-bundle
 --skip-test-unit
---skip-git # no .gitkeeps!!!
+--skip-keeps # no .keeps!!!
