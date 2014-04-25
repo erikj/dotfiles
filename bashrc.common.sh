@@ -51,6 +51,7 @@ alias rm='rm -v'
 alias mv='mv -v'
 alias cp='cp -v'
 alias du1='du -d 0 -h'
+alias dt='date && time'
 
 alias a='ack'
 alias c='cat'
