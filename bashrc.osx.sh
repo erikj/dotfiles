@@ -24,6 +24,7 @@ alias ccatalog='cd ~/Dropbox/NCAR/catalog_ui'
 alias cmaps='cd ~/Dropbox/NCAR/catalog-maps'
 alias ce2='cd ~/Dropbox/NCAR/catalog-maps'
 alias cnagios='cd ~/Dropbox/NCAR/catalog-nagios'
+alias cdvagrant='cd ~/Dropbox/NCAR/catalog-vagrant'
 alias czith='cd ~/Dropbox/NCAR/zith'
 alias cweb='cd ~/Dropbox/NCAR/web'
 
