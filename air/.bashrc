@@ -52,3 +52,7 @@ export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:/usr/local/mysql/lib:
 PATH=$PATH:/usr/local/rvm/bin # Add RVM to PATH for scripting
 
 PATH="/usr/local/heroku/bin:$PATH"
+
+# vagrant
+# http://docs.vagrantup.com/v2/other/environmental-variables.html
+export VAGRANT_DOTFILE_PATH='.vagrant-air'

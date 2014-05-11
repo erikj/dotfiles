@@ -36,3 +36,7 @@ if [ -d $NPM_GLOBAL_BIN ] ; then
 fi
 
 PATH=$PATH:/usr/local/rvm/bin # Add RVM to PATH for scripting
+
+# vagrant
+# http://docs.vagrantup.com/v2/other/environmental-variables.html
+export VAGRANT_DOTFILE_PATH='.vagrant-kepler'
