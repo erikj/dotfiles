@@ -16,11 +16,14 @@ set -o emacs
 # LOCAL COMMAND LINE STUFF
 
 alias mz='mysql -u root zith9'
-alias mmz='mysql -u zarf -p`cat ~/.my.merlot.zarf.passwd` -h merlot zith9b'
-alias mcz='mysql -u ruby -p`cat ~/.my.ctm-dev.ruby.passwd` -h ctm-dev zith9b'
 alias writer='/Applications/iA\ Writer.app/Contents/MacOS/iA\ Writer'
 
-# alias =''
+# alias place='holder'
+alias cdeepwave='~/Dropbox/NCAR/deepwave'
+
+# DEEPWAVE
+
+export TZ="NZST-12:00:00NZDT-13:00:00,M10.1.0,M3.3.0"
 
 # RVM
 
