@@ -19,7 +19,7 @@ alias mz='mysql -u root zith9'
 alias writer='/Applications/iA\ Writer.app/Contents/MacOS/iA\ Writer'
 
 # alias place='holder'
-alias cdeepwave='~/Dropbox/NCAR/deepwave'
+alias cdeepwave='cd ~/Dropbox/NCAR/deepwave'
 
 # DEEPWAVE
 
