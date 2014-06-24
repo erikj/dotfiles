@@ -42,6 +42,8 @@ if [ -d /usr/local/git/bin ] ; then
    PATH=/usr/local/git/bin:$PATH
 fi
 
+export GIT_MERGE_AUTOEDIT=no
+
 alias l='ls'
 alias l1='ls -1'
 alias ll='ls -la'
