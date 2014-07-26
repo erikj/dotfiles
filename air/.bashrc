@@ -21,10 +21,6 @@ alias writer='/Applications/iA\ Writer.app/Contents/MacOS/iA\ Writer'
 # alias place='holder'
 alias cdeepwave='cd ~/Dropbox/NCAR/deepwave'
 
-# DEEPWAVE
-
-export TZ="NZST-12:00:00NZDT-13:00:00,M10.1.0,M3.3.0"
-
 # RVM
 
 rvm_env="/usr/local/rvm/scripts/rvm"
