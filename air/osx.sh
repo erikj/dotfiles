@@ -73,3 +73,9 @@ sudo nvram SystemAudioVolume=%80
 
 # https://discussions.apple.com/message/25051863#25051863
 defaults write com.apple.loginwindow PowerButtonSleepsSystem -bool no
+
+# disable putting system to sleep when display sleeps
+# https://discussions.apple.com/thread/5559674?start=15&tstart=0
+
+sudo pmset -b sleep 0
+sudo pmset -b standby 0
