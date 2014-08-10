@@ -70,3 +70,6 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 # disable boot chime
 # https://discussions.apple.com/thread/3208783?start=120&tstart=0
 sudo nvram SystemAudioVolume=%80
+
+# https://discussions.apple.com/message/25051863#25051863
+defaults write com.apple.loginwindow PowerButtonSleepsSystem -bool no
