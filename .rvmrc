@@ -5,4 +5,8 @@ export rvm_path="/usr/local/rvm"
 # To order to enable this feature set the following value in either
 # /etc/rvmrc or ~/.rvmrc:
 
-rvm_project_rvmrc=1
+# https://github.com/wayneeseguin/rvm/blob/master/scripts/cd
+# Source a .rvmrc file in a directory after changing to it, if it exists.  To
+# disable this feature, set rvm_project_rvmrc=0 in /etc/rvmrc or $HOME/.rvmrc
+
+rvm_project_rvmrc=0
