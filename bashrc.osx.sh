@@ -16,6 +16,8 @@ alias m='mate'
 alias s='subl'
 alias sp='subl *.sublime-project'
 
+alias bubo='brew update && brew outdated'
+
 alias eject='diskutil eject'
 
 alias cdropbox='cd ~/Dropbox'
