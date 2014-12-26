@@ -57,15 +57,11 @@ alias dt='date && time'
 
 alias a='ack'
 alias c='cat'
-alias d='diff'
 alias e='emacs'
 alias g='git'
-alias p='python'
 alias r='ruby'
 alias be='bundle exec'
 # networking
-
-alias moleculus='ssh molecule@molecul.us'
 
 PS1='$PWD\n[\u@\h] '
 export TZ='MST7MDT'
