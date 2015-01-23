@@ -9,7 +9,6 @@ fi
 export EDITOR="subl --wait"
 export SVN_EDITOR="subl --wait"
 
-export PACKER_CACHE_DIR=/tmp
 export VAGRANT_USE_NFS=true
 
 alias m='mate'

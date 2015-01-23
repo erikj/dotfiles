@@ -44,6 +44,8 @@ fi
 
 export GIT_MERGE_AUTOEDIT=no
 
+export PACKER_CACHE_DIR=/tmp
+
 alias l='ls'
 alias l1='ls -1'
 alias ll='ls -la'
