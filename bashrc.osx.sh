@@ -33,6 +33,7 @@ alias cnagios='cd ~/Dropbox/NCAR/catalog-nagios'
 alias cdvagrant='cd ~/Dropbox/NCAR/catalog-vagrant'
 alias czith='cd ~/Dropbox/NCAR/zith'
 alias cweb='cd ~/Dropbox/NCAR/web'
+alias cplanner='cd ~/Dropbox/NCAR/mission-planner'
 
 # dev workflow
 alias h='heroku'
