@@ -2,7 +2,7 @@
     ss  = status
     s   = status -sb
     cl = config --list
-    a  = add
+    a  = add --verbose
     ci = commit
     co = checkout
     d  = diff
