@@ -1,0 +1,83 @@
+# Brewfile for new mac pro
+
+# https://github.com/Homebrew/homebrew-bundle
+
+# pre-reqs:
+# $ brew tap Homebrew/bundle
+# $ brew update
+
+# invocation:
+# $ brew bundle
+
+# general dev
+
+brew 'git'
+brew 'mysql'
+brew 'bash'
+brew 'wget'
+brew 'ack'
+brew 'packer'
+brew 'coreutils'
+# brew 'boot2docker'
+
+# tap djl/homebrew-apache2
+
+# brew djl/apache2/apache22
+
+# ruby / rails dev
+
+# brew libyaml
+
+
+# To allow the nokogiri gem to link against this libxslt run:
+# gem brew nokogiri -- --with-xslt-dir=/usr/local/opt/libxslt
+
+
+# brew libxml2
+# brew libxslt
+
+# Warning: libxml2 is keg-only and must be linked with --force
+# Note that doing so can interfere with building software.
+# Warning: libxslt is keg-only and must be linked with --force
+# Note that doing so can interfere with building software.
+
+# link libxml2 libxslt
+
+# cask
+
+# usage: https://github.com/phinze/homebrew-cask/blob/master/USAGE.md
+# casks: https://github.com/phinze/homebrew-cask/tree/master/Casks
+
+tap 'phinze/cask'
+
+brew 'brew-cask'
+
+# browsers
+
+# cask google-chrome
+cask 'firefox'
+
+# editors / dev
+
+# cask iterm2
+# cask sublime-text
+# cask haroopad
+cask 'virtualbox'
+cask 'vagrant'
+cask 'dash'
+# cask anvil
+cask 'launchrocket'
+
+# desktop / general
+
+# cask namely
+# cask thunderbird
+# cask skype
+# cask vlc
+# cask truecrypt
+cask 'gpgtools'
+cask 'dropbox'
+cask 'flux'
+cask 'menumeters'
+
+# http://support.gpgtools.org/kb/how-to/first-steps-where-do-i-start-where-do-i-begin
