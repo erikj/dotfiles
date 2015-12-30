@@ -36,6 +36,7 @@ alias cweb='cd ~/Dropbox/NCAR/web'
 alias cplanner='cd ~/Dropbox/NCAR/mission-planner'
 alias cosm='cd ~/Dropbox/NCAR/osm-mapnik'
 alias cingest='cd ~/Dropbox/NCAR/catalog-ingest'
+alias craf='cd ~/Dropbox/NCAR/raf'
 
 # dev workflow
 alias h='heroku'
