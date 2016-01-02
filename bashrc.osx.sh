@@ -6,6 +6,18 @@ if [ -d ~/node_modules/.bin ] ; then
   export PATH=~/node_modules/.bin:$PATH
 fi
 
+bash_completion=$(brew --prefix)/etc/bash_completion
+
+if [ -f $bash_completion ]; then
+  . $bash_completion
+fi
+
+vagrant_completion=' /opt/vagrant/embedded/gems/gems/*/contrib/bash/completion.sh'
+
+if [ -f $vagrant_completion ]; then
+  . $vagrant_completion
+fi
+
 export EDITOR="subl --wait"
 export SVN_EDITOR="subl --wait"
 
@@ -51,3 +63,28 @@ alias f='fig'
 alias d='docker'
 alias dc='docker-compose'
 alias dm='docker-machine'
+
+#
+# bash completion for aliases
+#
+
+if [[ $(type -t _vagrant) = 'function' ]]; then
+  complete -F _vagrant v
+fi
+
+if [[ $(type -t __git_complete) = 'function' ]]; then
+  __git_complete g __git_main
+fi
+
+if [[ $(type -t _docker) = 'function' ]]; then
+  complete -F _docker d
+fi
+
+if [[ $(type -t _docker_compose) = 'function' ]]; then
+  complete -F _docker_compose f
+  complete -F _docker_compose dc
+fi
+
+if [[ $(type -t _docker_machine) = 'function' ]]; then
+  complete -F _docker_machine dm
+fi
