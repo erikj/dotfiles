@@ -5,25 +5,6 @@ fi
 
 # aliases and PATHs
 
-case `uname` in
-Linux)
-  # GNU / Linux
-  # echo "Linux match found"
-  alias ls='ls -F --color' # add some color, trailing dir and link indicators
-  ;;
-*)
-  # BSD / -derived, eg. Mac OSX, etc.
-  # echo "BSD"
-  # Source common osx-platform user definitions
-
-  if [ -f ~/bashrc.osx.sh ]; then
-    . ~/bashrc.osx.sh
-  fi
-
-  alias ls='ls -FG' # add some color, trailing dir and link indicators
-  ;;
-esac
-
 PATH=/sbin:/usr/sbin:$PATH
 
 if [ -d ~/bin ] ; then
@@ -43,8 +24,6 @@ if [ -d /usr/local/git/bin ] ; then
 fi
 
 export GIT_MERGE_AUTOEDIT=no
-
-export PACKER_CACHE_DIR=/tmp
 
 alias l='ls'
 alias l1='ls -1'
@@ -67,3 +46,22 @@ alias be='bundle exec'
 
 PS1='$PWD\n[\u@\h] '
 export TZ='MST7MDT'
+
+case `uname` in
+Linux)
+  # GNU / Linux
+  # echo "Linux match found"
+  alias ls='ls -F --color' # add some color, trailing dir and link indicators
+  ;;
+*)
+  # BSD / -derived, eg. Mac OSX, etc.
+  # echo "BSD"
+  # Source common osx-platform user definitions
+
+  if [ -f ~/bashrc.osx.sh ]; then
+    . ~/bashrc.osx.sh
+  fi
+
+  alias ls='ls -FG' # add some color, trailing dir and link indicators
+  ;;
+esac
