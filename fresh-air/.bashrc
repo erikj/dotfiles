@@ -16,17 +16,6 @@ alias writer='/Applications/iA\ Writer.app/Contents/MacOS/iA\ Writer'
 
 # alias place='holder'
 
-# git stuff
-
-# https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
-
-git_prompt="/usr/local/etc/bash_completion.d/git-prompt.sh"
-
-if [ -f $git_prompt ] ; then
-  # . $git_prompt
-  PS1='$PWD$(__git_ps1 " (%s)")\n[\u@\h] '
-fi
-
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:/usr/local/mysql/lib:
 
 # vagrant
