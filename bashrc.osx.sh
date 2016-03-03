@@ -74,6 +74,7 @@ alias f='fig'
 alias d='docker'
 alias dc='docker-compose'
 alias dm='docker-machine'
+alias dme='docker-machine env'
 
 #
 # bash completion for aliases
