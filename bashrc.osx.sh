@@ -60,6 +60,7 @@ alias cingest='cd ~/Dropbox/NCAR/catalog-ingest'
 alias craf='cd ~/Dropbox/NCAR/raf'
 alias cdatavis='cd ~/Dropbox/NCAR/isf/ncharts'
 alias cncharts='cd ~/Dropbox/NCAR/isf/ncharts'
+alias cdocker='cd ~/Dropbox/NCAR/docker-library'
 
 # dev workflow
 alias h='heroku'
