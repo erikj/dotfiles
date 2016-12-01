@@ -36,3 +36,6 @@ else
 fi
 
 PATH=$PATH:/usr/local/rvm/bin # Add RVM to PATH for scripting
+
+alias cplanner='cd /var/www/mission-planner'
+alias dc=/usr/local/bin/docker-compose
