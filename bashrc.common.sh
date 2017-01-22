@@ -40,7 +40,6 @@ alias a='ack'
 alias c='cat'
 alias e='emacs'
 alias g='git'
-alias r='ruby'
 alias be='bundle exec'
 # networking
 

@@ -34,7 +34,6 @@ export SVN_EDITOR="subl --wait"
 
 export VAGRANT_USE_NFS=true
 
-alias m='mate'
 alias s='subl'
 alias sp='subl *.sublime-project'
 
