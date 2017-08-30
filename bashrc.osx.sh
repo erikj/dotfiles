@@ -34,6 +34,9 @@ export SVN_EDITOR="subl --wait"
 
 export VAGRANT_USE_NFS=true
 
+export DOCKERCOMPOSE_UID=`id -u`
+export DOCKERCOMPOSE_GID=`id -g`
+
 alias s='subl'
 alias sp='subl *.sublime-project'
 
@@ -75,6 +78,7 @@ alias d='docker'
 alias dc='docker-compose'
 alias dm='docker-machine'
 alias dme='docker-machine env'
+alias drab='docker-compose run app bash'
 
 #
 # bash completion for aliases
