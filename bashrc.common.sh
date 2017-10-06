@@ -24,6 +24,8 @@ if [ -d /usr/local/git/bin ] ; then
 fi
 
 export GIT_MERGE_AUTOEDIT=no
+export DOCKERCOMPOSE_UID=`id -u`
+export DOCKERCOMPOSE_GID=`id -g`
 
 alias l='ls'
 alias l1='ls -1'

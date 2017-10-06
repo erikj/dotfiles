@@ -34,9 +34,6 @@ export SVN_EDITOR="subl --wait"
 
 export VAGRANT_USE_NFS=true
 
-export DOCKERCOMPOSE_UID=`id -u`
-export DOCKERCOMPOSE_GID=`id -g`
-
 alias s='subl'
 alias sp='subl *.sublime-project'
 
