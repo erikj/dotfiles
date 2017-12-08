@@ -37,6 +37,8 @@ export VAGRANT_USE_NFS=true
 alias s='subl'
 alias sp='subl *.sublime-project'
 
+alias to='touchopen'
+
 alias bu='brew update'
 alias bo='brew outdated'
 alias bubo='brew update && brew outdated'
