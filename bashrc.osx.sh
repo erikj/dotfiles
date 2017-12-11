@@ -63,6 +63,7 @@ alias craf='cd ~/Dropbox/NCAR/raf'
 alias cncharts='cd ~/Dropbox/NCAR/isf/ncharts'
 alias cdocker='cd ~/Dropbox/NCAR/docker-library'
 alias cdatebrowse='cd ~/Dropbox/NCAR/catalogdatebrowse'
+alias cxras='cd ~/Dropbox/NCAR/presto/xras_submit'
 
 # dev workflow
 alias h='heroku'
