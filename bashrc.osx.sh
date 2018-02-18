@@ -104,3 +104,20 @@ fi
 if [[ $(type -t _docker_machine) = 'function' ]]; then
   complete -F _docker_machine dm
 fi
+
+#
+# chruby
+#
+chruby_sh=/usr/local/share/chruby/chruby.sh
+
+# source /usr/local/share/chruby/chruby.sh
+# source /usr/local/share/chruby/auto.sh
+if [ -f $chruby_sh ]; then
+  source $chruby_sh
+
+  chruby_auto_sh=/usr/local/share/chruby/auto.sh
+  if [ -f $chruby_auto_sh ]; then
+    source $chruby_auto_sh
+  fi
+
+fi
