@@ -18,6 +18,7 @@ alias ce2='cd /usr/local/catalog/catalog-maps'
 alias cdc3='cd /net/web/catalog/html/dc3_2012'
 alias cnagios='cd /usr/local/catalog/catalog-nagios'
 alias cweb='cd ~/svn/web'
+alias cxras='cd /var/www/rails/xras_submit'
 
 # This loads RVM into a shell session.
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"
@@ -39,4 +40,5 @@ PATH=$PATH:/usr/local/rvm/bin # Add RVM to PATH for scripting
 
 alias cplanner='cd /var/www/mission-planner'
 alias d='docker'
-alias dc=/usr/local/bin/docker-compose
+alias dc=docker-compose
+alias drab='docker-compose run app bash'
