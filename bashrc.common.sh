@@ -45,6 +45,11 @@ alias g='git'
 alias be='bundle exec'
 # networking
 
+alias d='docker'
+alias dc='docker-compose'
+alias drab='docker-compose run app bash'
+
+
 PS1='$PWD\n[\u@\h] '
 export TZ='MST7MDT'
 

@@ -74,12 +74,6 @@ alias vu='vagrant up'
 alias vs='vagrant ssh'
 alias vh='vagrant halt'
 
-alias d='docker'
-alias dc='docker-compose'
-alias dm='docker-machine'
-alias dme='docker-machine env'
-alias drab='docker-compose run app bash'
-
 #
 # bash completion for aliases
 #
